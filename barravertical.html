@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color:violet;
+    border: 1px solid #555;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li a.active {
+    background-color: blueviolet;
+    color: aqua;
+}
+/* Change the link color on hover */
+li a:hover:not(.active) {
+    background-color: rgb(92, 0, 0);
+    color: aqua;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active" href="#home"><i class="fa fa-home" aria-hidden="true"></i> 
+        Hogar</a></li>
+    <li><a href="#news"><i class="fa fa-book" aria-hidden="true"></i> 
+        Noticias</a></li>
+    <li><a href="contact"><i class="fa fa-address-book-o" aria-hidden="true"></i> 
+        Contacto</a></li>
+    <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i> 
+        Sobre mi</a></li>
+</ul>
+
+<div style="margin-left: 25%;padding: 1px 16px;height:1000px;">
+    <h2>Poemas PDR</h2>
+    <h3>El amor es como la rosa, aunque sea probable que muera, toma la decisión de florecer
+    </h3>
+</div>
+
+</body>
+</html>
